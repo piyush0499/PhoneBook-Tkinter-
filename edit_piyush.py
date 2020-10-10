@@ -3,6 +3,7 @@ from Tkinter import *
 import sqlite3
 from tkMessageBox import *
 
+#Linking the database
 con=sqlite3.Connection('project')
 cur=con.cursor()
 #root=Tk()
